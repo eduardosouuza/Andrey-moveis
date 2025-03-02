@@ -105,7 +105,7 @@ Serviço: ${formData.service}
 Data e Hora: ${formattedDateTime}
 ${formData.message ? `\nMensagem adicional: ${formData.message}` : ''}`;
 
-    const whatsappNumber = '(51) 9526-9111';
+    const whatsappNumber = '555195269111';
     const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, '_blank');
   };
